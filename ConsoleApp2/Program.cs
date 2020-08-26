@@ -10,9 +10,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Print();
+
+        }
+
+        
+        static void Print()
+        {
             Console.WriteLine("Hello World");
             Console.ReadLine();
-
         }
     }
 }
