@@ -10,15 +10,23 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Print();
+            //Print();
+            int result = Add(5,10);
+            Console.WriteLine(result);
+            Console.ReadLine();
 
         }
 
-        
         static void Print()
         {
             Console.WriteLine("Hello World");
             Console.ReadLine();
         }
+
+        static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
     }
 }
